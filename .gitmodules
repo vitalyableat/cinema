@@ -1,12 +1,20 @@
-[submodule "v1/client"]
-	path = v1/client
-	url = https://github.com/vitalyableat/cinema-v1-client
-	branch = master
 [submodule "v1/admin"]
 	path = v1/admin
 	url = https://github.com/vitalyableat/cinema-v1-admin
 	branch = master
+[submodule "v1/client"]
+	path = v1/client
+	url = https://github.com/vitalyableat/cinema-v1-client
+	branch = master
 [submodule "v1/server"]
 	path = v1/server
 	url = https://github.com/vitalyableat/cinema-v1-server
+	branch = master
+[submodule "v1/shared"]
+	path = v1/shared
+	url = https://github.com/vitalyableat/cinema-v1-shared
+	branch = master
+[submodule "v1/ui-kit"]
+	path = v1/ui-kit
+	url = https://github.com/vitalyableat/cinema-v1-ui-kit
 	branch = master
