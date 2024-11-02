@@ -13,7 +13,7 @@ export default {
 };
 
 export const checkbox: StoryFn<typeof Checkbox> = (args) => (
-  <div className="items-top flex space-x-2">
+  <div className="flex space-x-2">
     <Checkbox id="terms1" {...args} />
     <div className="grid gap-1.5 leading-none">
       <label

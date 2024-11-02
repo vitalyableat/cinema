@@ -1,0 +1,27 @@
+{
+  "name": "@repo/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "nest.js",
+    "react.js"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@tanstack/eslint-plugin-router": "^1.74.5",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-turbo": "^2.2.3",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-tailwindcss": "^3.17.5",
+    "eslint-plugin-turbo": "^2.2.3",
+    "globals": "^15.11.0",
+    "typescript-eslint": "^8.12.2"
+  }
+}

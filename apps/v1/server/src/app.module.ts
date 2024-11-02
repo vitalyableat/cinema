@@ -1,26 +1,26 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 
-import { AudioTechnologiesModule } from './audio-technologies/audio-technologies.module';
-import { DatabaseModule } from './database/database.module';
-import { FilesModule } from './files/files.module';
-import { GenresModule } from './genres/genres.module';
-import { LanguagesModule } from './languages/languages.module';
-import { LocationsModule } from './locations/locations.module';
-import { LoungesModule } from './lounges/lounges.module';
-import { PlacesModule } from './places/places.module';
-import { SeatsModule } from './seats/seats.module';
-import { SessionPlacesModule } from './session-places/session-places.module';
-import { SessionsModule } from './sessions/sessions.module';
-import { ShowPhotosModule } from './show-photos/show-photos.module';
-import { ShowTypesModule } from './show-types/show-types.module';
-import { ShowsModule } from './shows/shows.module';
-import { SpacesModule } from './spaces/spaces.module';
-import { TicketsModule } from './tickets/tickets.module';
-import { TranslationLanguagesModule } from './translation-languages/translation-languages.module';
-import { TranslationsModule } from './translations/translations.module';
-import { UsersModule } from './users/users.module';
-import { VideoTechnologiesModule } from './video-technologies/video-technologies.module';
+import { DatabaseModule } from '@/database/database.module';
+import { AudioTechnologiesModule } from '@/modules/audio-technologies/audio-technologies.module';
+import { FilesModule } from '@/modules/files/files.module';
+import { GenresModule } from '@/modules/genres/genres.module';
+import { LanguagesModule } from '@/modules/languages/languages.module';
+import { LocationsModule } from '@/modules/locations/locations.module';
+import { LoungesModule } from '@/modules/lounges/lounges.module';
+import { PlacesModule } from '@/modules/places/places.module';
+import { SeatsModule } from '@/modules/seats/seats.module';
+import { SessionPlacesModule } from '@/modules/session-places/session-places.module';
+import { SessionsModule } from '@/modules/sessions/sessions.module';
+import { ShowPhotosModule } from '@/modules/show-photos/show-photos.module';
+import { ShowTypesModule } from '@/modules/show-types/show-types.module';
+import { ShowsModule } from '@/modules/shows/shows.module';
+import { SpacesModule } from '@/modules/spaces/spaces.module';
+import { TicketsModule } from '@/modules/tickets/tickets.module';
+import { TranslationLanguagesModule } from '@/modules/translation-languages/translation-languages.module';
+import { TranslationsModule } from '@/modules/translations/translations.module';
+import { UsersModule } from '@/modules/users/users.module';
+import { VideoTechnologiesModule } from '@/modules/video-technologies/video-technologies.module';
 
 @Module({
   imports: [

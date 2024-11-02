@@ -1,6 +1,6 @@
 import { StoryFn } from '@storybook/react';
 
-import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from './index.tsx';
+import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '.';
 
 export default {
   title: 'ui',
