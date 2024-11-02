@@ -5,7 +5,11 @@ import { StoryFn } from '@storybook/react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './index.tsx';
 
 const MOCKED_VALUES: { value: string; tab: string; content: ReactNode }[] = [
-  { value: 'account', tab: 'Account', content: 'Make changes to your account here.' },
+  {
+    value: 'account',
+    tab: 'Account',
+    content: 'Make changes to your account here.',
+  },
   { value: 'password', tab: 'Password', content: 'Change your password here.' },
 ];
 

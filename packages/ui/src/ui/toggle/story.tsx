@@ -26,6 +26,6 @@ export default {
 
 export const toggle = {
   args: {
-    children: <Italic className="h-4 w-4" />,
+    children: <Italic className="size-4" />,
   },
 };

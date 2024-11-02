@@ -3,7 +3,7 @@ import { toast } from 'sonner';
 
 import { Button } from '@/ui';
 
-import { Toaster } from './index.tsx';
+import { Toaster } from '.';
 
 export default {
   title: 'ui',

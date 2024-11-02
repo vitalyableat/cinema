@@ -1,6 +1,6 @@
 import { fn } from '@storybook/test';
 
-import { Button } from './index.tsx';
+import { Button } from '.';
 
 export default {
   title: 'ui',

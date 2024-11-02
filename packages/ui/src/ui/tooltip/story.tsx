@@ -2,7 +2,7 @@ import { StoryFn } from '@storybook/react';
 
 import { Button } from '@/ui';
 
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './index.tsx';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '.';
 
 export default {
   title: 'ui',

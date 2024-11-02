@@ -1,8 +1,3 @@
-export const  App = () => {
-
-  return (
-    <>
-      Hello world
-    </>
-  )
-}
+export const App = () => {
+  return <>Hello world</>;
+};
